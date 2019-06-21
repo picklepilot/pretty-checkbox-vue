@@ -1,6 +1,6 @@
 <template>
     <div :class="classes">
-        <input ref="input" :type="_type" :name="name"
+        <input ref="input" class="context-menu-checkbox" :type="_type" :name="name"
                :checked="shouldBeChecked" :value="value" @change="updateInput"
                :disabled="_disabled" :required="_required"/>
         <div :class="onClasses">
